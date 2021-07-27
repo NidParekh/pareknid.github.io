@@ -1,0 +1,54 @@
+<!-- Nidhi Parekh 
+This is my portfolio including my special interests, resume, and contact form
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" >
+    <script type="text/javascript" src="contact.js"></script>
+</head>
+
+<body>
+    
+    <div>
+        <a id="logo" href="index.html"><img src="logo.png"></a>
+        <ul> 
+            
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="painting.html">Painting</a></li>
+        </ul>
+    </div>
+
+
+    
+        <h2>Let's Connect!</h2>
+
+
+        <h2 id="output"></h2>
+
+    <div class="form_cont">    
+        <form id="form" onsubmit="return false;">
+            <h4>First Name: &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  Last Name:</h4>
+            <input type="text" id="fname" name="fname"/> &emsp; &emsp; 
+            <input type="text" id="lname" name="lname"/> <br/>
+
+            <h4>Email:</h4>
+            <input style="width: 365px;" type="email" id="email" name="email"/> <br/>
+
+            <h4>Phone Number:</h4>
+            <input style="width: 365px;" type="number" id="phone" name="phone"/> <br/>
+
+            <h4>Feedback:</h4>
+            <textarea style="width: 365px;" id="msg" name="msg"></textarea> <br/><br/>
+
+            <input id="sub" type="submit" value="SEND" onclick="contact()"/>
+        </form>
+
+    </div>
+
+</body>
+</html>

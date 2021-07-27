@@ -1,0 +1,74 @@
+/* Nidhi Parekh 
+This is my portfolio including my special interests, resume, and contact form.
+*/
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    float: left;
+    position:absolute;
+    height: 82px;
+    width: 82px;
+    margin-left: 40px;
+}
+
+#header{
+
+    list-style:none;
+    margin-top: 20px;
+    padding: 1%;
+    overflow: hidden;
+    background-color:black;
+  
+  }
+  
+  
+  li a{
+    float: right;
+    display: block;
+    color: coral;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 20px;
+  }
+
+  li a:hover{
+      color: blueviolet;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    color: navy;
+}
+
+
+
+h2{
+    color: navy;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+
+  }
+
+h4{
+    color: black;
+} 
+
+#right{
+    text-align: right;  
+}
